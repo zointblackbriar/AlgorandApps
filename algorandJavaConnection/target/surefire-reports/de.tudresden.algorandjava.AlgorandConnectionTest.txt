@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: de.tudresden.algorandjava.AlgorandConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.293 s <<< FAILURE! - in de.tudresden.algorandjava.AlgorandConnectionTest
+testLocalClient{String, int, String, boolean}  Time elapsed: 0.016 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [java.lang.String arg0] in method [public void de.tudresden.algorandjava.AlgorandConnectionTest.testLocalClient(java.lang.String,int,java.lang.String,boolean)].
+

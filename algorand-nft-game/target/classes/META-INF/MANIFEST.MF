@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: zoint
+Build-Jdk: 17
+Implementation-Title: algorand-nft-game
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: de.tudresden.algorand
+Implementation-URL: https://spring.io/projects/spring-boot/algorand-nft-
+ game
+Created-By: Maven Integration for Eclipse
+

@@ -11,7 +11,7 @@ def approval_program():
         Return(Int(1))
     ])
 
-approval_program()
 
 if __name__ == "__main__":
-    
+    print("main function entry point")
+    approval_program()

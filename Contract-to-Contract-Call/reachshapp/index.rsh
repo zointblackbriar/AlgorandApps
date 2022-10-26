@@ -27,6 +27,14 @@ export const main = Reach.App(() => {
   });
 
   //Not enough money in the account of ALgo
-  //B.pay(request);
-  //commit();
+  B.pay(request);
+  commit();
+
+  A.only(() => {
+      const info = declassify(interact.info);  
+      
+  });
+  A.publish(info); // Publishing it
+  transfer(request).to(A); //requested amount to A 
+  commit(); //commits the transaction on the consensus network.
 });

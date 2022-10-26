@@ -1,7 +1,7 @@
 ### RUNNING APPLICATIONS
 
 ```bash
-~/reach/reach compile index.rst
+~/reach/reach compile index.rsh
 ```
 
 Run in the Algorand Testnet

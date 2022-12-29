@@ -10,12 +10,12 @@ def setup():
     investor = p1.getRole("investor")
     investor.create_bank("Commerzbank")
     bank = investor.get_bank()
-
+    #first client test
     client_algorand_account_1 = ["X7FUIUOTDJ3AKVHFN3WAPEJXA2HH5K2IWKNEMEIHAK527YND75VYALTUC4", "UkoEli+7KJQ73A0yFOAD4QnubU3QJY/LouCC1U1Dr+m/y0RR0xp2BVTlbuwHkTcGjn6rSLKaRhEHAruv4aP/aw=="]
     p2 = Person("Bob", client_algorand_account_1)
     p2.addRole("client", Client(p2))
     clientB = p2.getRole("client")
-
+    #second client has been loaded
     client_algorand_account_2 = ["KSOBHAKZMD2I7SJC7CUHBWBYDSKTDB37USOYBA4IOPIZ3K3IYGMIGRVIBA", "Syj40FEBTK8I9Tml3p8GrPiz4GTXKG1ElBhNCnaTnyxUnBOBWWD0j8ki+Khw2DgclTGHf6SdgIOIc9Gdq2jBmA=="]
     p3 = Person("Alice", client_algorand_account_2)
     p3.addRole("client", Client(p3))

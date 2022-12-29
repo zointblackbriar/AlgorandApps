@@ -3,6 +3,7 @@ attrs==22.1.0
 certifi==2021.10.8
 cffi==1.15.1
 colour==0.1.5
+configparser==5.3.0
 crytic-compile==0.2.2
 dill==0.3.5.1
 distlib==0.3.4
@@ -16,6 +17,7 @@ packaging==21.3
 platformdirs==2.5.2
 pluggy==1.0.0
 prettytable==3.0.0
+protobuf==3.20.3
 py==1.11.0
 py-algorand-sdk==1.15.0
 pycparser==2.21
